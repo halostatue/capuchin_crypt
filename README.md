@@ -12,7 +12,7 @@ Erlang, this uses `persistent_term`; in JavaScript, values are stored in a
 module level `Map`.
 
 If you think you need this, think again — you probably don't. As the warning at
-the top of [`persisten_term`][pterm] says:
+the top of [`persistent_term`][pterm] says:
 
 > Persistent terms is an advanced feature and is not a general replacement for
 > ETS tables. Before using persistent terms, make sure to fully understand the
