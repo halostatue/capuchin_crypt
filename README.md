@@ -1,8 +1,10 @@
 # `capuchin_crypt`
 
-[![Hex.pm][shield-hex]][hexpm] [![Hex Docs][shield-docs]][docs]
-[![Apache 2.0][shield-licence]][licence] ![Erlang Compatible][shield-erl]
-![JavaScript Compatible][shield-js]
+[![Hex.pm](https://img.shields.io/hexpm/v/capuchin_crypt?style=for-the-badge "Hex Version")](https://hex.pm/packages/capuchin_crypt)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg?style=for-the-badge "Hex Docs")](https://capuchin-crypt.hexdocs.pm/)
+[![Apache 2.0](https://img.shields.io/hexpm/l/capuchin_crypt?style=for-the-badge&label=licence "Licence")](https://github.com/halostatue/capuchin_crypt/blob/main/LICENCE.md)
+![Erlang Compatible](https://img.shields.io/badge/target-erlang-f3e155?style=for-the-badge "Erlang Compatible")
+![JavaScript Compatible](https://img.shields.io/badge/target-javascript-f3e155?style=for-the-badge "JavaScript Compatible")
 
 - code :: <https://github.com/halostatue/capuchin_crypt>
 - issues :: <https://github.com/halostatue/capuchin_crypt/issues>
@@ -48,20 +50,12 @@ pub fn main() {
 }
 ```
 
-Further documentation can be found at <https://hexdocs.pm/capuchin_crypt>.
+Further documentation can be found at <https://capuchin-crypt.hexdocs.pm>.
 
 ## Semantic Versioning
 
 `capuchin_crypt` follows [Semantic Versioning 2.0][semver].
 
 [cripta]: https://en.wikipedia.org/wiki/Capuchin_Crypt
-[docs]: https://hexdocs.pm/capuchin_crypt
-[hexpm]: https://hex.pm/packages/capuchin_crypt
-[licence]: https://github.com/halostatue/capuchin_crypt/blob/main/LICENCE.md
 [pterm]: https://www.erlang.org/doc/apps/erts/persistent_term.html
 [semver]: https://semver.org/
-[shield-docs]: https://img.shields.io/badge/hex-docs-lightgreen.svg?style=for-the-badge "Hex Docs"
-[shield-erl]: https://img.shields.io/badge/target-erlang-f3e155?style=for-the-badge "Erlang Compatible"
-[shield-hex]: https://img.shields.io/hexpm/v/capuchin_crypt?style=for-the-badge "Hex Version"
-[shield-js]: https://img.shields.io/badge/target-javascript-f3e155?style=for-the-badge "JavaScript Compatible"
-[shield-licence]: https://img.shields.io/hexpm/l/capuchin_crypt?style=for-the-badge&label=licence "Licence"

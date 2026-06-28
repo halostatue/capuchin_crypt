@@ -23,11 +23,14 @@ jobs:
         gleam:
           - '1.14'
           - '1.15'
+          - '1.16'
+          - '1.17'
         otp:
           - 27
           - 28
+          - 29
         include:
-          - gleam: '1.15'
+          - gleam: '1.17'
             otp: 28
             quality: true
 
@@ -38,7 +41,7 @@ jobs:
 
     steps:
       - name: Harden the runner
-        uses: step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40 # v2.19.0
+        uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4
         with:
           disable-sudo: true
           egress-policy: block
@@ -52,7 +55,7 @@ jobs:
             release-assets.githubusercontent.com:443
             repo.hex.pm:443
 
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           persist-credentials: false
 
@@ -90,6 +93,8 @@ jobs:
         gleam:
           - '1.14'
           - '1.15'
+          - '1.16'
+          - '1.17'
         otp:
           - 28
         bun:
@@ -102,7 +107,7 @@ jobs:
 
     steps:
       - name: Harden the runner
-        uses: step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40 # v2.19.0
+        uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4
         with:
           disable-sudo: true
           egress-policy: block
@@ -116,7 +121,7 @@ jobs:
             release-assets.githubusercontent.com:443
             repo.hex.pm:443
 
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           persist-credentials: false
 
@@ -150,6 +155,8 @@ jobs:
         gleam:
           - '1.14'
           - '1.15'
+          - '1.16'
+          - '1.17'
         otp:
           - 28
         deno:
@@ -162,7 +169,7 @@ jobs:
 
     steps:
       - name: Harden the runner
-        uses: step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40 # v2.19.0
+        uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4
         with:
           disable-sudo: true
           egress-policy: block
@@ -177,7 +184,7 @@ jobs:
             release-assets.githubusercontent.com:443
             repo.hex.pm:443
 
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           persist-credentials: false
 
@@ -211,10 +218,13 @@ jobs:
         gleam:
           - '1.14'
           - '1.15'
+          - '1.16'
+          - '1.17'
         otp:
           - 28
         node:
           - 24.x
+          - 26.x
 
     runs-on: ubuntu-latest
 
@@ -223,7 +233,7 @@ jobs:
 
     steps:
       - name: Harden the runner
-        uses: step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40 # v2.19.0
+        uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4
         with:
           disable-sudo: true
           egress-policy: block
@@ -237,7 +247,7 @@ jobs:
             release-assets.githubusercontent.com:443
             repo.hex.pm:443
 
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           persist-credentials: false
 
