@@ -1,4 +1,5 @@
 # Licence
+
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 
 `capuchin_crypt` is copyright © 2026 Austin Ziegler
@@ -24,5 +25,6 @@ The `Signed-off-by` trailer can be automatically added by git with the `-s` or
 ```sh
 git commit --signoff
 ```
+
 [apache-2]: https://spdx.org/licenses/Apache-2.0.html
 [trailer]: https://git-scm.com/docs/git-interpret-trailers
